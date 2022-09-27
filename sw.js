@@ -10,6 +10,7 @@ self.addEventListener('install', (event)=>{
                 './views/restar.html',
                 './views/sumar.html',
                 './css/styles.css',
+                './css/apps.css',
                 './js/app.js',
                 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css',
                 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'
