@@ -25,5 +25,5 @@ self.addEventListener('install', (event)=>{
 //Solo queremos obtener lo almacenado dentro del cache
 self.addEventListener('fetch', (event)=>{
     const respCaches = caches.match(event.request);
-    event.respondWith(fetch(respCaches));
+    event.respondWith(respCaches);
 });
